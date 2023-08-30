@@ -1,8 +1,8 @@
 import Image from 'next/image'
-export default function Home() {
+export default function HomePage() {
   return (
       <div >
-        <div className="bg-[#FBE0DC] h-[840px] max-tablet:h-[540px] max-tablet:mt-[30px] w-[680px] rounded-[20px] ml-[65px]"></div>
+        <div className="bg-[#FBE0DC] h-[840px] max-desktop:h-[540px] max-desktop:mt-[30px] w-[680px] rounded-[20px] ml-[65px]"></div>
         <Image
           src="/main.svg"
           alt="Vercel Logo"
